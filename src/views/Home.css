@@ -1,0 +1,36 @@
+.containerMain {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerGrid {
+    padding: 2rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+    grid-auto-rows: 650px;
+    grid-gap: 2rem;
+}
+
+.title {
+    align-self: center;
+    color: aliceblue;
+    padding-bottom: 1rem;
+    font-family: Monaco, 'Times New Roman', Times, serif;
+}
+
+.btnShow {
+    font-family: Monaco, 'Times New Roman', Times, serif;
+    align-self: center;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.btnShow:hover {
+    background-color: #4CAF43;
+    transform: scale(1.1);
+}
